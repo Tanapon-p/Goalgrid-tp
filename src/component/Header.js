@@ -16,7 +16,7 @@ const Header = () => {
     <header>
       <div className="logo">
         <img src={Logo} alt="Taskmate Logo" />
-        <span>Taskmate</span>
+        <span>GoalGrid</span>
       </div>
       <div className="themeSelector">
         <span

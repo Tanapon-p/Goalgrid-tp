@@ -36,7 +36,7 @@ const AddTask = ({ taskList, setTaskList, task, setTask }) => {
           name="task"
           value={task.name || ""}
           autoComplete="off"
-          placeholder="add task"
+          placeholder="add your Goal"
           maxLength="25"
           onChange={(e) => setTask({ ...task, name: e.target.value })}
         />

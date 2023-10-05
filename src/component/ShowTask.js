@@ -13,7 +13,7 @@ const ShowTask = ({ taskList, setTaskList, task, setTask }) => {
     <section className="showTask">
       <div className="head">
         <div>
-          <span className="title">Todo</span>
+          <span className="title">Goal</span>
           <span className="count">{taskList.length}</span>
         </div>
         <button className="clearAll" onClick={() => setTaskList([])}>
